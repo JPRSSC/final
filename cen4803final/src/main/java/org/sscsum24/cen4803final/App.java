@@ -1,13 +1,12 @@
 package org.sscsum24.cen4803final;
 
 /**
- * Hello world!
- *
+ * This is a simple program that calculates the sum
+ * of two numbers.
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+	public int add (int numberA, int numberB) {
+		return numberA + numberB;
+	}
 }
